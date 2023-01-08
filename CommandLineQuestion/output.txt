@@ -1,0 +1,7 @@
+Most popular pair of heroes :
+   1894 PATRIOT/JEFF MACE;MISS AMERICA/MADELIN
+
+The number of comics per hero can be found in the file number_of_comics_per_hero.txt
+
+The average number of heroes in comics is :
+7.59
