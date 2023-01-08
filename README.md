@@ -1,6 +1,8 @@
 # ADM_HW5
-Repository of the fifth homework of Algorithmic Methods of Data Mining and Laboratory. 
+Repository of the fifth homework of Algorithmic Methods of Data Mining and Laboratory.
+
 Group #12
+
 Members of the group: Harrach Yassine, Zeynalpour Sara & Ghanbarizadeh Vahid
 
 In this repository you can find :
