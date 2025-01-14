@@ -10,7 +10,7 @@ This time, you and your team have decided to dive deep into Marvel's social netw
 Let's hands-on this!
 
 
-1. Data
+Data
 -----------------------------------------
 To get started, you have to download the data, as always, from here. Make sure you downloaded all files because we will work with them all.
 
@@ -36,7 +36,8 @@ Some heroes' names in 'hero-netowrk.csv' have an extra '/' at the end of their n
 The hero name 'SPIDER-MAN/PETER PARKER' in 'edges.csv' has been changed to 'SPIDER-MAN/PETER PAR' in 'hero-network.csv' due to a string length limit in 'hero-network.csv'.
 Some entries in the 'hero-network.csv' have the same hero in both columns. In the graph, these entries form a self-loop. Because a self-loop makes no sense in this network, you can safely remove those from the dataset.
 
-2. Backend Implementation
+
+Backend Implementation
 -----------------------------------
 The goal of this part is the implementation of a controller system that has different functionalities. The controller should take as input an identifier "i" and run the associated function_i applied to the graph you create from the downloaded data.
 
@@ -121,7 +122,8 @@ Important Notes:
 This functionality should only be run on the first graph.
 To comprehend this functionality better, we suggest you take a good look at this article
 
-3. Frontend Implementation
+
+Frontend Implementation
 ---------------------------------------------
 In this section, we ask you to build the visualizations for users' query results. We also expect you to showcase plots that can give us the most insight possible and comment accordingly.
 
@@ -173,7 +175,10 @@ Notes:
 
 For the final output of your function, please set the Hero_1 to 'Captain America' and Hero_2 to 'Ironman' and show the results
 If Hero_1 and Hero_2 belong to the same community, identify that community; otherwise, identify those two communities that these heroes belong to.
-4. Command Line Question
+
+
+Command Line Question
+------------------------------
 In this question, you should use any command line tools that you know to answer the following questions using the same datasets that you have been using so far:
 
 What is the most popular pair of heroes (often appearing together in the comics)?
@@ -181,13 +186,17 @@ Number of comics per hero.
 The average number of heroes in comics.
 Note: You may work on this question in any environment (AWS, your PC command line, Jupyter notebook, etc.), but the final script must be placed in CommandLine.sh, which must be executable.
 
-5. Bonus - PageRank on MapReduce
+
+Bonus - PageRank on MapReduce
+---------------------------
 IMPORTANT: This is a bonus step, so it's not mandatory. You can get the maximum score also without doing this. We will take this into account, only if the rest of the homework has been completed.
 
 PageRank and MapReduce go well together, and this synergy was essential for Google's growth and the MapReduce paradigm's proliferation. Therefore, for the bonus section of this homework, we ask that you implement the PageRank algorithm using the MapReduce paradigm.
 Hint: Here are two approaches to implementing the PageRank algorithm using the MapReduce paradigm that you can use as a reference for your bonus part.
 
-6. Algorithmic Question
+
+Algorithmic Question
+-------------------
 
 Members of the group: Harrach Yassine, Zeynalpour Sara & Ghanbarizadeh Vahid
 
